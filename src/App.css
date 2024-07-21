@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('src/assets/c.jpg');
+  background-size: contain;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  text-align: center;
+}
+
+.card {
+  background: rgba(19, 20, 20, 0.414);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.time {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button.start {
+  background-color: #055518;
+}
+
+button.stop {
+  background-color: #700c16;
+}
+
+button.reset {
+  background-color: #ffc20b;
+}
+
+button:disabled {
+  background-color: #423f3f;
+  cursor: not-allowed;
+}
