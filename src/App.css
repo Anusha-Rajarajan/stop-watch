@@ -1,14 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url('src/assets/c.jpg');
-  background-size: contain;
+  
+  background-image:url("C:\Users\anush\stop-watch\public\c.jpg") ;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-
 .app {
   text-align: center;
 }
