@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   
-  background-image:url("C:\Users\anush\stop-watch\public\c.jpg") ;
+  background-image:url("/c.jpg") ;
   margin: 0;
   display: flex;
   justify-content: center;
